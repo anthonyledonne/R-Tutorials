@@ -1,7 +1,9 @@
 fbOAuth(app_id, app_secret, extended_permissions = TRUE)
 
 require("Rfacebook")
-fb_oauth <- fbOAuth(app_id="123456789", app_secret="1A2B3C4D")
+#fb_oauth <- fbOAuth(app_id="935912299784361", app_secret="9c9fe4df2d7077ea92bfcc8f270c0fa0")
+token <- "d20b93528aaa4ab54ea010383e634335"
+fblikes <- getLikes("LaurenLayneAuthor", token)
 
 #now we have our fb_oauth connection
  #we will just save them to be able to use them later
